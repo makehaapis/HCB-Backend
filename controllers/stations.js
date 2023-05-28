@@ -5,6 +5,7 @@ const middleware = require('../utils/middleware')
 
 stationsRouter.get('/', async (request, response) => {
   const stations = await Station.find({})//.populate('journey')
+  console.log(stations)
   response.json(stations)
 })
 

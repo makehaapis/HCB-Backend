@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
-const Schema = mongoose.Schema
 
-const stationSchema = Schema({
+const stationSchema = mongoose.Schema({
   _id: Number,
   FID: String,
   ID: String,
@@ -16,12 +15,6 @@ const stationSchema = Schema({
   Kapasiteet: String,
   x: String,
   y: String,
-  journeys: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Journey'
-    }
-  ],
 })
 
 stationSchema.set('toJSON', {

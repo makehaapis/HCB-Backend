@@ -13,7 +13,7 @@ And Datasets about journeys found here:
 + https://dev.hsl.fi/citybikes/od-trips-2021/2021-07.csv  
 
 You can find my demo of this project running as render.com Here:  
-+ [https://helsinki-city-bike-app.azurewebsites.net/](https://helsinki-city-bike-app-mjk9.onrender.com/)  
++ [https://helsinki-city-bike-app-mjk9.onrender.com]
 
 <h1>How To Build</h1>  
 

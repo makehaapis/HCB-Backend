@@ -1,8 +1,12 @@
 <h1>Helsinki City Bike App</h1>
 
-This is web application made Node.jsthat displays data from journeys made with City Bikes in Capital area of Finland.  
+This is web application made Node.js that displays data from journeys made with City Bikes in Capital area of Finland.  
 Backend service fetches and converts .csv data to objects and Mongoose saves that data to MongoDb database.  
-React.js handles the frontend UI.  
+React.js handles the frontend UI.
+
+Frontend is in separated github repository, you can find it here: https://github.com/makehaapis/HCB-Frontend
+
+You dont have to clone frontend repository for running this app. This repository has the build for frontend app.
 
 Dataset that has information about HSL's city bike stations found here:   
 + https://opendata.arcgis.com/datasets/726277c507ef4914b0aec3cbcfcbfafc_0.csv  
@@ -13,7 +17,7 @@ And Datasets about journeys found here:
 + https://dev.hsl.fi/citybikes/od-trips-2021/2021-07.csv  
 
 You can find my demo of this project running as render.com Here:  
-+ [https://helsinki-city-bike-app-mjk9.onrender.com]
++ https://helsinki-city-bike-app-mjk9.onrender.com
 
 <h1>How To Build</h1>  
 
@@ -47,17 +51,19 @@ replace your_api_key to your api key from bing maps portal.
   
 <h2>Build</h2>  
 
-Go to root directory and give command npm install in terminal.  
+Go to root directory and give command npm install in terminal.    
 
-To seed stations in your database give command:
-npm run seedStations
+To seed stations in your database give command:  
+npm run seedStations  
 
-To seed journeys in your database give command:
-npm run seedJourneys
+To seed journeys in your database give command:  
+npm run seedJourneys  
 
-After seeding the database you can start the app with command: 
-npm start
+After seeding the database you can start the app with command:   
+npm start  
 
-Now app is running in http://localhost:3003/
+Now app is running in http://localhost:3003/  
 
-If you want me to provide you the .env file please contact me via email: haapasaari.markoj@gmail.com
+If you want me to provide you the .env file please contact me via email: haapasaari.markoj@gmail.com  
+
+<h2>You can find my ASP.NET MVC app for Solitas dev academy pre-assignment made in spring 2023 from here: https://github.com/makehaapis/Helsinki-City-Bike-App<h2>

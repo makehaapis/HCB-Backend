@@ -2,12 +2,6 @@ const stationsRouter = require('express').Router()
 const Journey = require("../models/journey");
 const Station = require('../models/station')
 
-/*stationsRouter.get('/', async (request, response) => {
-  const stations = await Station.find({})
-  console.log(stations)
-  response.json(stations)
-})*/
-
 stationsRouter.get('/', async (req, res) => {
   try {
     const pageNumber = parseInt(req.query.pageNumber) || 0;
